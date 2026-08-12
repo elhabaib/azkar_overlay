@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/overlayImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/logo"
+        android:contentDescription="تذكير"/>
+
+    <TextView
+        android:id="@+id/overlayClose"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp"
+        android:background="#E5847A"
+        android:gravity="center"
+        android:text="✕"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</LinearLayout>
